@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply m-0 bg-dark text-white font-NotoSansJP;
+  @apply m-0 bg-[#030004] text-white font-NotoSansJP;
 }
 
 .default-theme {

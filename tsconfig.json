@@ -18,9 +18,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "types": ["cypress", "cypress-file-upload", "@types/node", "@types/chai", "@types/mocha"],
+    "types": ["@types/node"],
     "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "migrations/1_favo_migrations.ts"],
-  "exclude": ["node_modules"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "migrations/1_favo_migrations.ts"
+  ],
+  "exclude": ["node_modules"]
 }

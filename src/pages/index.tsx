@@ -11,12 +11,11 @@ const Home: NextPage = () => {
       <div className="flex flex-col justify-center items-center p-8 lg:p-36 font-DotGothic16">
         {/* Background */}
         <div className="absolute top-0 left-0 w-screen h-full -z-40 bg-black/80"></div>
-        <div className="absolute top-0 left-0 w-screen h-full -z-50 bg-[url('/images/5.jpeg')] bg-center bg-no-repeat bg-cover"></div>
+        <div className="absolute top-0 left-0 w-screen h-full -z-50 bg-[url('/images/background.jpeg')] bg-center bg-no-repeat bg-cover"></div>
 
         {/* Name */}
         <div className="h-16" />
         <div className="flex items-center">
-          {/* <div className="font-Righteous text-6xl">webshina</div> */}
           <Name />
           <div className="w-8" />
           <a
