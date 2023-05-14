@@ -5,7 +5,7 @@ import { IoMdSchool } from 'react-icons/io';
 type Props = {};
 export const CareerTable: React.FC<Props> = (props) => {
   return (
-    <div className="py-12 px-3 bg-slate-900/50 rounded-xl">
+    <div className="py-12 px-3 lg:px-12 bg-slate-900/50 rounded-xl">
       <table>
         <tbody>
           <CareerItem
@@ -56,7 +56,7 @@ type CareerItemProps = {
 const CareerItem: React.FC<CareerItemProps> = (props) => {
   return (
     <tr>
-      <td className="text-center text-xs">
+      <td className="text-center text-xs lg:text-sm">
         {props.startAt}
         <br />
         |
@@ -72,9 +72,9 @@ const CareerItem: React.FC<CareerItemProps> = (props) => {
       </td>
       <td className="w-3" />
       <td>
-        <div className="text-sm font-bold">{props.company}</div>
+        <div className="text-sm lg:text-xl font-bold">{props.company}</div>
         <div className="h-1" />
-        <div className="text-xs">{props.position}</div>
+        <div className="text-xs lg:text-base">{props.position}</div>
       </td>
     </tr>
   );
