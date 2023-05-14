@@ -1,3 +1,4 @@
+import { CareerTable } from '@/components/CareerTable';
 import CircleImage from '@/components/CircleImage';
 import FavoTitle from '@/components/FavoTitle';
 import { Name } from '@/components/Name';
@@ -35,6 +36,7 @@ const Home: NextPage = () => {
         </div>
         <div className="h-16"></div>
 
+        {/* Profile Image */}
         <CircleImage
           imgSrc="/images/webshina_icon.jpeg"
           width="160px"
@@ -44,6 +46,7 @@ const Home: NextPage = () => {
 
         <div className="h-8"></div>
 
+        {/* Profile */}
         <div className="text-center">
           手羽先とweb3が好きな
           <br />
@@ -51,7 +54,8 @@ const Home: NextPage = () => {
         </div>
         <div className="h-16"></div>
 
-        <div className="text-3xl font-extralight">Skill</div>
+        {/* Skills */}
+        <div className="text-3xl font-extralight">Skills</div>
         <div className="h-8"></div>
         <div className="p-8 rounded-xl bg-slate-900">
           TypeScript / React・Next.js / Flutter / Express / PHP・Laravel /
@@ -59,6 +63,13 @@ const Home: NextPage = () => {
         </div>
         <div className="h-24"></div>
 
+        {/* Career */}
+        <div className="text-3xl font-extralight">Career</div>
+        <div className="h-8"></div>
+        <CareerTable />
+        <div className="h-24"></div>
+
+        {/* Portfolio */}
         <div className="text-3xl font-extralight ">Portfolio</div>
         <div className="h-8"></div>
         <a

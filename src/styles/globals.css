@@ -69,3 +69,7 @@ body {
     text-shadow: inherit;
   }
 }
+
+.gradient-bg-purple-to-pink {
+  @apply bg-gradient-to-b from-purple-700 to-pink-500;
+}
