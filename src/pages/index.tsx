@@ -72,11 +72,7 @@ const Home: NextPage = () => {
         {/* Portfolio */}
         <div className="text-3xl font-extralight ">Portfolio</div>
         <div className="h-8"></div>
-        <a
-          target="_blank"
-          href="https://www.favo-community.com/"
-          rel="noreferrer"
-        >
+        <a target="_blank" href="https://favo.webshina.xyz/" rel="noreferrer">
           <div className="relative h-96 w-96">
             <ParticleAnimation />
             <div className="absolute top-12 left-16">

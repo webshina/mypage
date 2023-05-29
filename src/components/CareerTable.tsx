@@ -13,7 +13,7 @@ export const CareerTable: React.FC<Props> = (props) => {
             endAt="2016/3"
             type="education"
             company="Keio University"
-            position="Economics department / Statistical geography"
+            position="Economics department / Statistic"
           />
           <VerticalLine />
           <CareerItem
