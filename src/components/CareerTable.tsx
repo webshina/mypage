@@ -28,7 +28,7 @@ export const CareerTable: React.FC<Props> = (props) => {
             startAt="2022/10"
             endAt="2021/9"
             type="work"
-            company="Start-up company focused on Social media marketing"
+            company="Social Media Marketing Company (Start-up)"
             position="CTO"
           />
           <VerticalLine />
@@ -36,7 +36,7 @@ export const CareerTable: React.FC<Props> = (props) => {
             startAt="2022/10"
             endAt="now"
             type="work"
-            company="NFT marketplace operator"
+            company="NFT Marketplace Operator Company"
             position="freelance / web3.0 engineer / Manager"
           />
         </tbody>
