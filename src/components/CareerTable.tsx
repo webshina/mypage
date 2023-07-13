@@ -25,8 +25,8 @@ export const CareerTable: React.FC<Props> = (props) => {
           />
           <VerticalLine />
           <CareerItem
-            startAt="2022/10"
-            endAt="2021/9"
+            startAt="2021/9"
+            endAt="2022/10"
             type="work"
             company="Social Media Marketing Company (Start-up)"
             position="CTO"
